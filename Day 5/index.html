@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hagerForm {
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="id1" class="mydiv" name="myname">Hager Fathi</div>
+<hr>
+<img src="./images.jpeg" alt="" class="dynamicImg" onmouseleave="zoomout(this)" onmouseover="zoomin(this)" width="300px">
+<img src="./download.jpeg" alt="" class="dynamicImg" onmouseleave="zoomout(this)" onmouseover="zoomin(this)" width="300px">
+<img src="./blue-lotus-flower-732x549-thumbnail-732x549.jpg" alt="" class="dynamicImg" onmouseleave="zoomout(this)" onmouseover="zoomin(this)" width="300px">
+<hr>
+<button onclick="hoopme()">Click Me</button>
+<hr>
+<form action="">
+    <label class="hagerForm" for="name">Full Name: <input id="name" type="text" placeholder="Full Name" required </label>
+    <br>
+    <br>
+    <label class="hagerForm" for="email">Email: <input type="email" id="email" required placeholder="Email" ></label>
+    <br>
+<div class="dropdown"> Cities:
+    <select onclick="myFunction()" class="dropbtn">
+        <option value="Egypt">Egypt</option>
+        <option value="Italy">Italy</option>
+        <option value="Spain">Spain</option>
+        <option value="Turkey">Turkey</option>
+    </select>
+  </div>
+
+</form>
+    <script src="../Day 5/index.js"></script>
+</body>
+</html>
